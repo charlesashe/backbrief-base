@@ -60,9 +60,9 @@ NEW do not exist and are build units.
 | council | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\council.md` |
 | critique | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\critique.md` |
 | grade-idea | LIFTED 2026-09-27 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\grade-idea.md` |
-| find-gap | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\find-gap.md` |
+| find-gap | LIFTED 2026-09-28 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\find-gap.md` |
 | grade-video | BUILT 2026-09-27 in payload/.claude | |
-| pick-niche | NEW, to build | |
+| pick-niche | BUILT 2026-09-28 in payload/.claude | |
 
 ### Skills
 
@@ -82,7 +82,7 @@ NEW do not exist and are build units.
 | competitive-analysis | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\competitive-analysis` |
 | video-to-skill | LIFTED 2026-09-27 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\video-to-skill` |
 | video-claim-grading | BUILT 2026-09-27 in payload/.claude | |
-| niche-picker | NEW, to build | |
+| niche-picker | BUILT 2026-09-28 in payload/.claude | |
 
 ### Rules
 
