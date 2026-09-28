@@ -59,7 +59,7 @@
 | approve | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\approve.md` |
 | council | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\council.md` |
 | critique | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\critique.md` |
-| grade-idea | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\grade-idea.md` |
+| grade-idea | LIFTED 2026-09-27 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\grade-idea.md` |
 | find-gap | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\find-gap.md` |
 | grade-video | BUILT 2026-09-27 in payload/.claude | |
 | pick-niche | NEW, to build | |
