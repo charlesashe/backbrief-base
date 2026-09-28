@@ -25,11 +25,23 @@ that works on this machine, in that order. Record which route produced the trans
 whether the transcript is native captions, auto-generated captions, or a local transcription,
 because the tag on a quoted claim depends on it: auto-generated captions mishear numbers.
 
-Platform note. Public YouTube is the reliable case. Other platforms (Facebook, TikTok,
-Instagram, X) vary in what a downloader can reach and in what their terms allow; when a
-link is not YouTube, say so before starting, attempt the download once, and if it is refused
-ask the owner for a local file rather than trying workarounds. Never log in to a platform
-to fetch a video.
+Platform note. Each of the four platforms checked restricts automated access in its terms,
+and YouTube's are not an exception. As read on 2026-09-28: YouTube's Terms of Service bar
+downloading content except as the Service expressly authorizes or with prior written
+permission from YouTube and, if applicable, the respective rights holders, and bar access by
+automated means (robots, botnets or scrapers) except for public search engines under
+robots.txt or with YouTube's prior written permission; Facebook's Terms bar accessing or
+collecting data by automated means without Meta's prior permission; Instagram's Terms of Use
+bar collecting information in an automated way without express permission; TikTok's U.S.
+Terms bar scraping, crawling, exporting or extracting content with any automated system or
+software except as approved in writing. Public YouTube is the technically reliable case, not
+the permitted one, and X was not checked. For any link, tell the owner before starting that
+the platform's terms restrict automated download, and offer a local file or a pasted
+transcript the owner has the right to use as the first route. Attempt a download only after
+the owner has heard that and says to go ahead; if it is refused, ask for a local file rather
+than trying workarounds. Never log in to a platform to fetch a video. This note reports what
+the terms say, not whether a particular use breaches them; terms change, so re-read a
+platform's terms before relying on this line.
 
 Rights. The transcript is read for analysis and quoted in short excerpts in the ledger. It
 is not republished, and the skill never writes a derivative product from someone else's
