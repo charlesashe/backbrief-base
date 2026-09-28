@@ -61,7 +61,7 @@
 | critique | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\critique.md` |
 | grade-idea | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\grade-idea.md` |
 | find-gap | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\commands\find-gap.md` |
-| grade-video | NEW, to build | |
+| grade-video | BUILT 2026-09-27 in payload/.claude | |
 | pick-niche | NEW, to build | |
 
     ### Skills
@@ -69,7 +69,7 @@
     | Skill | Status | Source |
     |---|---|---|
     | stop-slop | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\stop-slop` |
-| fresh-context-verification | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\fresh-context-verification` |
+| fresh-context-verification | LIFTED 2026-09-27 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\fresh-context-verification` |
 | bb | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\bb` |
 | session-team | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\session-team` |
 | discovery-interview | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\discovery-interview` |
@@ -80,8 +80,8 @@
 | experiment-designer | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\experiment-designer` |
 | risk-register | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\risk-register` |
 | competitive-analysis | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\competitive-analysis` |
-| video-to-skill | lift from archived payload | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\video-to-skill` |
-| video-claim-grading | NEW, to build | |
+| video-to-skill | LIFTED 2026-09-27 into payload/.claude | `C:\business\vault\_archived\backbrief-2026-09-27\business-os\kit\.claude\skills\video-to-skill` |
+| video-claim-grading | BUILT 2026-09-27 in payload/.claude | |
 | niche-picker | NEW, to build | |
 
     ### Rules
