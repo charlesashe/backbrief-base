@@ -1,7 +1,8 @@
 # Backbrief (product repo)
 
-This is the canonical clone for **Backbrief**, one of six products in the Backbrief line
-(restructured 2026-09-27). Read `PRODUCT.md` first: it holds the scope, the out-of-scope list, and the
+This is the canonical clone for **Backbrief**, one of four products in the Backbrief line
+(restructured 2026-09-27, moved onto the judgment layer 2026-09-28: the base grades a plan, an
+idea, or a video pitch before anything is built or bought). Read `PRODUCT.md` first: it holds the scope, the out-of-scope list, and the
 manifest of components to lift from the archived Backbrief Business OS 3.22.0 payload.
 
 - `payload/.claude/` is what ships. Keep it free of house-only material.
