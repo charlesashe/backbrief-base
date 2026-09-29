@@ -152,7 +152,7 @@
         "path": "CLAUDE.md",
         "current": {
           "release": "0.1.0",
-          "sha256": "f6a43d6a3cfcd2f5002965821df03693c42d90d2177210b505ad040b6ca59c10"
+          "sha256": "c885b7bbc5b5282c49119c0a3ee551b224603873f1fe9205beccc792c7a2d7d6"
         },
         "known_prior": [
           {
@@ -254,6 +254,10 @@
           {
             "releases": "Backbrief Business OS 3.22.0",
             "sha256": "a1b790171cead80d683f95acca1028effd1afae5b3833ce6861a7ca05f0f47cf"
+          },
+          {
+            "releases": "0.1.0",
+            "sha256": "f6a43d6a3cfcd2f5002965821df03693c42d90d2177210b505ad040b6ca59c10"
           }
         ]
       },

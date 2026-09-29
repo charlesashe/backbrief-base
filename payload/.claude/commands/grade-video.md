@@ -1,5 +1,5 @@
 ---
-description: Paste a link to a video that pitches a business or a money-making method. The transcript is pulled, every claim is extracted and tagged, and the opportunity is graded on the public six-dimension rubric.
+description: Paste a link to a video that pitches a business or a money-making method. It pulls the transcript, extracts and tags every claim, and grades the opportunity on the public six-dimension rubric.
 ---
 
 Run VIDEO CLAIM GRADING on the link the user gave. Load `.claude/skills/video-claim-grading/SKILL.md` and `.claude/skills/video-to-skill/SKILL.md` first and follow them exactly.

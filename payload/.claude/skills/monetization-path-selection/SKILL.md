@@ -20,7 +20,7 @@ Provenance: distilled 2026-09-01 from the closing segment (approx. 44:37 - 51:25
 Pick One Path") of "12 Ways to Make Money with Claude" (Sabrina Ramonov, YouTube,
 `watch?v=rRN2F2IXRsg`, 51:49, published 2026-06-24), watched from a local clip via local
 transcription plus full-resolution frame reads of the whiteboard card and the digital chart slide
-(the chart also exists in a handwritten version, whose x-axis is labelled "Time to first $" where
+(the chart also exists in a handwritten version, whose x-axis is labeled "Time to first $" where
 the slide reads "Time to earn"). Path names and the chart's axes
 were verified against her companion post at sabrina.dev; the transcript alone was not trusted for
 any proper noun, because it rendered "Claude" as "cloth" and "Blotato" as "the potato".
@@ -55,7 +55,7 @@ The source's own map of twelve paths, as **ordinal reference, not forecast**:
 The two slow rows are one x-band, not an ordering: several bottom-right paths sit later on her
 chart than several top-right ones. What separates the rows is leverage, not time.
 
-**Read those positions as ordering, never as numbers.** Her chart's vertical axis is labelled
+**Read those positions as ordering, never as numbers.** Her chart's vertical axis is labeled
 "Leverage" but ticked in dollars from $0 to $10,000,000, which are two different quantities, and no
 position on it is sourced to data. It is one operator's judgment, drawn on a whiteboard. Use it to
 argue about relative placement; do not carry a tick label into a plan.

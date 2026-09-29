@@ -36,7 +36,7 @@ Council advisors (dispatched by `/council` and the `/grade` panel):
 - **/council**: Run a five-advisor council on a decision: five distinct advisors, blind peer review, a chairman, and the clash.
 - **/find-gap**: Find gaps in a market by reading real, sourced complaints, then checking whether anyone is actively looking for a fix. Discovery, not validation. It can also start your business brief from a gap you pick.
 - **/grade-idea**: Stress-test a raw idea in one pass: the same five advisors, the same public six-dimension rubric, a scorecard, no plan document required. This is the quick single-pass read on an idea that is not a plan yet; the full graded loop below (`/intake`, `/business-plan`, `/grade` with its revision loops, then `/approve`) is the deep path once the idea becomes a business.
-- **/grade-video**: Paste a link to a video that pitches a business or a money-making method. The transcript is pulled, every claim is extracted and tagged, and the opportunity is graded on the public six-dimension rubric.
+- **/grade-video**: Paste a link to a video that pitches a business or a money-making method. It pulls the transcript, extracts and tags every claim, and grades the opportunity on the public six-dimension rubric.
 - **/pick-niche**: For someone with no business idea yet. Interviews you for skills, hours, money and limits, scans for gaps with /find-gap, and returns three candidates graded on the public six-dimension rubric, each with a first move for this week.
 - **/handoff**: End a session: write a dated brief (what happened, open threads, next action) a fresh chat can continue from.
 - **/pickup**: Start a new chat: read the memory files and the latest handoff brief, state where things stand and the next action.

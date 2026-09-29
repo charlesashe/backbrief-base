@@ -9,7 +9,7 @@ assembled 2026-09-28 (plan unit 3), unreleased. Version 0.1.0 is reserved for th
 
 - The Council framework: five advisors, blind peer review, a chairman, the clash (/council).
 - The CEO loop: /intake a plan or a money-making idea, /business-plan, /grade against the public six-dimension rubric, /approve. /grade-idea and /critique for the quick pass.
-- Video claim grader (NEW): paste a link to a video that pitches a business or money-making opportunity; the transcript is pulled, every claim is extracted and tagged verified, unverified or vendor claim, and the opportunity is graded on the same rubric.
+- Video claim grader (NEW): paste a link to a video that pitches a business or money-making opportunity; it pulls the transcript, tags every claim verified, unverified or vendor claim, and grades the opportunity on the same rubric.
 - Niche picker (NEW): for the buyer with no plan yet. Interviews for skills, hours, money and constraints, scans for gaps with /find-gap, and returns three graded candidates.
 - The core team and the fresh-context verifier, so every artifact is checked before it is called done.
 

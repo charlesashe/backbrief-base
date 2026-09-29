@@ -13,7 +13,7 @@ Status: payload assembled, unreleased. Version 0.1.0 is reserved for the first r
 
 - `payload/.claude/`: the team. Agents, commands, rules and skills, plus the index `CLAUDE.md` and the `VERSION` stamp.
 - `payload/scaffold/`: the project folders and templates the team reads from and writes to, with a project `CLAUDE.md` and the decision log.
-- Three opt-in layers: `payload/enforcement/` (permission rules that stop outward shell commands), `payload/memory-layer/`, and `payload/status-layer/` (the machine-written status contract). Each has its own README and none installs unless you say yes.
+- The opt-in layers: `payload/enforcement/` (permission rules that stop outward shell commands), `payload/memory-layer/`, and `payload/status-layer/` (the machine-written status contract). Each has its own README and none installs unless you say yes.
 - `payload/INTEGRATION.md`: how to add Backbrief to a setup you already have without losing any of it.
 
 ## Install by hand into a project

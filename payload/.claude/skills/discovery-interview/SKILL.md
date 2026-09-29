@@ -142,7 +142,7 @@ the one this method cannot find by itself.
 
 ## Bounds
 
-The interview sends, publishes and spends nothing. An inferred answer stays labelled as an
+The interview sends, publishes and spends nothing. An inferred answer stays labeled as an
 inference until the owner confirms it. Pricing is written as the owner's decision in the owner's
 words and is never proposed by the interviewer. A legal, tax or licensing answer for a named
 place is recorded as the owner's statement and flagged for the researcher (agent-routing rule);
