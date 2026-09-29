@@ -16,14 +16,14 @@ The video pitches a one-person AI agency: sell an AI receptionist to local busin
 |---|---|---|---|---|---|
 | 1 | open | "Three sevenfigure agencies, over 1500 small businesses served, zero employees." | result | vendor claim | Presenter's own record in a video that sells a trial link, snapshot and community. No client, invoice or revenue shown. |
 | 2 | open | "25 clients, $400 a month each. That's $10,000 per month." | result | unverified | Arithmetic holds (25 x 400 = 10,000). Client count and price are the presenter's assumptions. At the "297" price named in step 3, 25 clients bill $7,425 (computed here from the video's figures). |
-| 3 | open | "over 36.2 million small businesses in the US alone" | market | verified | SBA Office of Advocacy, Frequently Asked Questions About Small Business 2026: 36,207,130 small businesses, defined as independent firms under 500 employees. Figure read from a search-result summary of that page; a direct fetch returned HTTP 403. The count covers all small firms, not the businesses that miss calls and would pay. |
+| 3 | open | "over 36.2 million small businesses in the US alone" | market | unverified | SBA Office of Advocacy, Frequently Asked Questions About Small Business 2026: 36,207,130 small businesses, defined as independent firms under 500 employees. Figure read from a search-result summary of that page; a direct fetch returned HTTP 403, so the source page was not reached and the tag stays unverified. The count covers all small firms, not the businesses that miss calls and would pay. |
 | 4 | step 1 | "62% of small businesses miss incoming phone calls" | market | unverified | Secondary web sources trace a 62% figure to a 2016 study of 85 businesses by 411 Locals, a marketing vendor. Original not retrieved. |
 | 5 | step 1 | "the first business to respond wins 78% of the time" | market | unverified | Secondary sources attribute a 78% figure to Lead Connect research and word it as customers buying from the first company that responds. Original not retrieved; the video's wording differs. |
 | 6 | step 1 | "You charge $300 to $500 a month" and "the client is happy to pay" | market | vendor claim | Presenter's price, with no named client. Context, unverified: review-site summaries list stand-alone AI receptionist products from $49 to $95 a month. |
 | 7 | step 3 | "297 or 3.97, sometimes even 4.97 a month" | result | vendor claim | Transcript renders the higher prices as "3.97" and "4.97"; probably $397 and $497, unconfirmed on this route. Recorded as transcribed. |
 | 8 | open, step 3 | "around 5 to 10 minutes to set up"; "about 15 minutes a month per client" | cost | vendor claim | Presenter's own time estimates. The live call shows one call working, not setup time. |
 | 9 | step 3 | The AI receptionist "picks up, has a natural conversation with the caller, qualifies the lead, and books the appointment" | mechanism | unverified | One demo call to a number the presenter set up, recorded in the transcript. No client deployment shown. |
-| 10 | not in video | Cost of the software the method runs on (the video names no price) | cost | verified | HighLevel official pricing page, read 2026-09-29: Starter $97 a month with 3 sub-accounts, Unlimited $297, Agency Pro $497, with usage-based charges for Voice AI. Whether each client needs its own sub-account is an assumption the video does not address. |
+| 10 | not in video | Cost of the software the method runs on (the video names no price) | cost | vendor claim | HighLevel official pricing page, read 2026-09-29 (the seller's own list price, so vendor claim per the grading rule): Starter $97 a month with 3 sub-accounts, Unlimited $297, Agency Pro $497, with usage-based charges for Voice AI. Whether each client needs its own sub-account is an assumption the video does not address. |
 | 11 | step 4 | "about one in five says yes" | result | vendor claim | Warm-contact reply rate. No sample size or data shown. |
 | 12 | open, close | "sign two clients a week, you hit 25 in about 3 months"; first client takes "2 to 4 weeks" | mechanism | unverified | 12.5 weeks at two a week matches "about 3 months". Two a week is an assumption; the one-in-five warm reply rate and the 2-to-4-week first client are the only stated support. |
 | 13 | step 5 | "Most clients see new Google reviews inside the first two weeks." | result | vendor claim | Presenter's own statement; no client data. |
@@ -35,7 +35,7 @@ The video pitches a one-person AI agency: sell an AI receptionist to local busin
 
 ## Tag counts
 
-Claims: 18 total, 2 verified, 7 unverified, 9 vendor claim.
+Claims: 18 total, 0 verified, 8 unverified, 10 vendor claim.
 
 ## The three tells
 
@@ -45,7 +45,7 @@ Claims: 18 total, 2 verified, 7 unverified, 9 vendor claim.
 
 ## Checked and not checked
 
-Checked this run: the market size (row 3), the software price (row 10), the origins of the two phone-call figures (rows 4, 5). Not checked, left unverified: every result, cost-of-time and operator claim, and the compliance claim in row 14.
+Checked this run: the market size (row 3; the source page was not reached, so it stays unverified), the software price (row 10; the seller's own page, so vendor claim), the origins of the two phone-call figures (rows 4, 5). Not checked, left unverified: every result, cost-of-time and operator claim, and the compliance claim in row 14.
 
 ## Not stated in the video
 

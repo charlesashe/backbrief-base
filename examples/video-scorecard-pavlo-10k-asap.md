@@ -4,7 +4,7 @@
 IDEA SCORECARD
 Idea: A local-business AI agency that answers missed calls and web forms and sells AI-built websites at $300 a month, finding clients by cold calls and texts first, then ads
 Source: "How i'd make 10K a month asap if i had to start again", Pavlo, https://www.youtube.com/watch?v=sXBDL9bvyhE, 11:47, transcript via pasted transcript from a licensed service (vidIQ), caption type unknown, no timestamps
-Claims: 18 total, 1 verified, 9 unverified, 8 vendor claim
+Claims: 18 total, 0 verified, 9 unverified, 9 vendor claim
 
 Clarity of offer         4.7/10
 Market realism           3.5/10

@@ -23,7 +23,7 @@ The video argues that $10,000 a month from a local-business AI agency is "simple
 | 7 | mid | An AI website in "less than 10 minutes", sold at "$300 per month", against "5,000 or 10,000" traditionally | market | vendor claim | Presenter's own price and time. No client shown. |
 | 8 | mid | "as long as you can prove that there's some kind of return on investment... that is all that you need" | mechanism | unverified | Presenter's rule; no example of a proven return. |
 | 9 | mid | Start "with no experience and no budget"; offer the service "for free"; "You don't have to buy anything" | cost | unverified | The description points to GoHighLevel through an affiliate link; the spoken video names no tool. Whether the method needs paid software is not stated. |
-| 10 | not in the spoken video | Cost of the tool the description points to | cost | verified | HighLevel official pricing page, read 2026-09-29: Starter $97 a month with 3 sub-accounts, Unlimited $297, Agency Pro $497, with usage-based charges for AI features. |
+| 10 | not in the spoken video | Cost of the tool the description points to | cost | vendor claim | HighLevel official pricing page, read 2026-09-29 (the seller's own list price, so vendor claim per the grading rule): Starter $97 a month with 3 sub-accounts, Unlimited $297, Agency Pro $497, with usage-based charges for AI features. |
 | 11 | mid | Partnership routes: an agency owner gets clients by promoting inside Facebook groups run by an owner he helps for free; another pays dental labs "10 or 15%" of sales to email their dentist lists | mechanism | unverified | Second-hand. The video states no rules for a lab emailing its own list or for paying a percentage; not checked. |
 | 12 | late | "one of the best ways to get clients is going to be cold calling as well as doing cold SMS" | mechanism | unverified | The video states no rules for cold calls or text messages. Unverified local-law assumption, United States assumed; not routed to the researcher in this run. |
 | 13 | late | "we'll spend around a thousand dollars on ads", "around a hundred dollars per meeting", close "about four to five", "nine hundred dollars up front" for three months, "three thousand six hundred dollars"; "profitable on day one" | result | vendor claim | Arithmetic holds at four closes (4 x $900 = $3,600; five closes give $4,500). The presenter refers to "my ads dashboard right here"; the transcript does not show its contents, and a presenter's own dashboard is not verification. No delivery, tool or labor cost is stated. |
@@ -35,7 +35,7 @@ The video argues that $10,000 a month from a local-business AI agency is "simple
 
 ## Tag counts
 
-Claims: 18 total, 1 verified, 9 unverified, 8 vendor claim.
+Claims: 18 total, 0 verified, 9 unverified, 9 vendor claim.
 
 ## The three tells
 
