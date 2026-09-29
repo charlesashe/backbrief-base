@@ -57,4 +57,4 @@ Intake would ask the owner these five questions in one batch. The owner is not a
 Also unknown, noticed in the dump and not asked:
 - The basis for expecting at least 40 of 240 subscribers (about one in six) to take an annual plan that does not exist yet.
 - Whether the annual plan carries the same platform and payment fees as the monthly plan.
-- What happens to the newsletter if Substack changes its fee or rules. The owner's only stated mitigation is that the email list is exportable and his.
+- What happens to the newsletter if Substack changes its fee or rules. The owner's only stated mitigation is that the email list is exportable and the owner's.
