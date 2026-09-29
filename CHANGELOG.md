@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 (2026-09-29)
+
+First release of Backbrief, the base of the line. Refund policy effective date filled in `LICENSE.md`. The zip sha256, content digest and source commit are recorded at the end of this entry after the build.
 
 - 2026-09-29: demo re-recorded on Backbrief 0.1.0 itself (plan unit 19): the TrailNotes specimen through /intake, /business-plan and /grade to the three-pass cap (7.1, 7.4, 7.6, all B; the builder with the unit-economics skill found the same $391.76 against "about $340" gap the predecessor's cfo found); `demo.md` beats and Part 2 of the worked example rewritten from the record (`examples/trailnotes-rerecord-2026-09-29.md`, full run files beside it); Part 1 (NestPet) kept as the predecessor's record with its honesty line; verifier PASS. Installer `docs/CLAUDE.md` drafted for the zip root. Reference manifest regenerated.
 - 2026-09-29: unit 4 proved `/grade-video` on three real videos (examples/ carries the scorecards, ledgers and run record); unit 20 closed the eight findings it surfaced in `video-claim-grading/SKILL.md`, `grade-video.md` and `grade-idea.md` (citation without timestamps, unknown caption type, unreached source pages stay unverified, ledger tags taken as given by advisors and "the user" defined for a video brief, a first-move guard against buying what the video sells, tags for free funnels, arithmetic on unchecked inputs and compliance statements, a stated gap in the brief, closing lines for someone else's pitch). `LICENSE.md` adopted and added; `docs/README.md` drafted for the download root.

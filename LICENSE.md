@@ -49,7 +49,7 @@ Some products can read content you point them at, such as a video's transcript o
 
 ## Refunds and support
 
-All sales are final. The product is a digital download delivered immediately, and the files are yours to keep, so there are no change-of-mind refunds once the download link has been sent. If your download is broken, missing, or not what the product page describes, reply to your delivery email and a human will reply within five business days and make it right: a fix or a fresh copy, or a refund if neither of those puts it right. Nothing in this section limits any statutory right you have under the law of the country or state you live in. This policy applies to purchases made on or after [the first release date of the product].
+All sales are final. The product is a digital download delivered immediately, and the files are yours to keep, so there are no change-of-mind refunds once the download link has been sent. If your download is broken, missing, or not what the product page describes, reply to your delivery email and a human will reply within five business days and make it right: a fix or a fresh copy, or a refund if neither of those puts it right. Nothing in this section limits any statutory right you have under the law of the country or state you live in. This policy applies to purchases made on or after September 29, 2026.
 
 For support, reply to the same delivery email. Updates to the product you bought are free through the download link for as long as the licensor offers that product; the licensor may stop offering a product or its updates at any time, and your license to the copy you have continues.
 
