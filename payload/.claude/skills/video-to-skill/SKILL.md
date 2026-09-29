@@ -118,7 +118,7 @@ shows for a few seconds is exactly what this finds and the audio never carries.
   touches money, pricing, legal exposure, sending, or publishing, the distilled skill
   restates the escalation boundary in its own text. If it produces financial, legal, or
   health guidance (the "budget my finances" case), the skill carries the same
-  analysis-not-advice framing the cfo carries. Jurisdiction-specific claims route to the
+  analysis-not-advice framing the unit-economics skill carries. Jurisdiction-specific claims route to the
   researcher, per agent-routing.
 - **Verify before it joins the roster.** The generated skill is a non-trivial artifact:
   pass it to the verifier in fresh context with its acceptance criteria (frontmatter

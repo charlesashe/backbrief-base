@@ -1,0 +1,34 @@
+{
+  "_readme": "See memory-layer/README.md for what this hook does, what it costs, and how to remove it. This file shows the hook entry in both OS forms; the installer merges only the OS-correct one into the project's .claude/settings.json, under its top-level \"hooks\" key, alongside any hooks already there.",
+  "sh": {
+    "hooks": {
+      "SessionStart": [
+        {
+          "matcher": "startup|clear|compact",
+          "hooks": [
+            {
+              "type": "command",
+              "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/backbrief-memory-recall.sh\""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "windows": {
+    "_readme": "The installer writes the project's absolute path in place of <ABSOLUTE-PROJECT-PATH> at merge time. An absolute -File path is inert under both Git Bash and PowerShell as the hook shell, so this one command string works regardless of which shell the machine uses.",
+    "hooks": {
+      "SessionStart": [
+        {
+          "matcher": "startup|clear|compact",
+          "hooks": [
+            {
+              "type": "command",
+              "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"<ABSOLUTE-PROJECT-PATH>\\.claude\\hooks\\backbrief-memory-recall.ps1\""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

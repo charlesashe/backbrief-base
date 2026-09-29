@@ -1,0 +1,539 @@
+{
+  "note": "Shipped reference files: documents this product ships read-only for the owner to read, never to fill in. Buyer-authored files (context/strategy/, .claude/memory/, the project CLAUDE.md, context/reference/SOURCES.md) are deliberately absent and are never touched by hash.",
+  "hash": "sha256 over the file's bytes with CRLF normalized to LF. Normalization is required, not cosmetic: real installed copies carry CRLF and would read as modified without it.",
+  "unknown_hash_means": "modified or unrecognized - leave the file alone and say so. Never replace on a hash that is not in this manifest.",
+  "files": [
+    {
+      "path": "examples/worked-example-business.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "e0ef884305b104785154616ef0f32eadcd01e567c5a0be92550bba015c7f0f44"
+      },
+      "known_prior": [
+        {
+          "releases": "2.1.2-2.2.0",
+          "sha256": "6a45c425f4ff8861117aca9699183beb543913fb4dd788c74c6306ef59865864"
+        },
+        {
+          "releases": "3.0.0-3.2.1",
+          "sha256": "c0176b594e373d2dae4c9de8323ea67113879e9a3cf20b95972606f992a3627d"
+        },
+        {
+          "releases": "3.3.1",
+          "sha256": "8c14a06922266c9226ef8e06e4068a1e508ed2301bed8866056bef0eba538a70"
+        },
+        {
+          "releases": "Backbrief Business OS 3.5.0",
+          "sha256": "fac1b6df6f490dde14ed40d8535facf16e035684ce7b1bab607ee195f53aded6"
+        }
+      ]
+    },
+    {
+      "path": "templates/business-brief-template.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "0e483b319ceecf13ae87e3921e400e965ad389ede7a8f45990b3185c2346e9f8"
+      },
+      "known_prior": []
+    },
+    {
+      "path": "workflows/business-plan-template.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "185301d994cb138394865fa2ed784fe8f59b088343618da54b0bacd3657b6bb1"
+      },
+      "known_prior": [
+        {
+          "releases": "Backbrief Business OS 3.5.0",
+          "sha256": "cc1e0df8a74b439b26c68b2207872c2537b3ecaa255c0880331e61d29ef2ffc0"
+        }
+      ]
+    },
+    {
+      "path": "workflows/plan-template.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "a2da323944fcf9a57e610d8920be7824a1a3a4ea9dac69937a4fdcec468e5bae"
+      },
+      "known_prior": []
+    },
+    {
+      "path": "workflows/scorecard-template.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "add4edf598087361b0701d1a39e04ad4cf1b1e7a5604dfd44ed04fa1fb64c40a"
+      },
+      "known_prior": []
+    },
+    {
+      "path": "context/reference/README.md",
+      "current": {
+        "release": "0.1.0",
+        "sha256": "18e78e4340a7cc143190ce147767baf7b1bf6b82f724942f35558e8ee21ab79a"
+      },
+      "known_prior": [
+        {
+          "releases": "2.1.2-2.1.4",
+          "sha256": "1bfae079c387af168871e139a94ea0d52dd6f5de2d73ef68762de8e8dcd6d22b"
+        }
+      ]
+    }
+  ],
+  "shipped_names": {
+    "commands": [
+      "approve",
+      "bb-status",
+      "business-plan",
+      "council",
+      "critique",
+      "demo",
+      "find-gap",
+      "grade",
+      "grade-idea",
+      "grade-video",
+      "handoff",
+      "intake",
+      "next",
+      "pick-niche",
+      "pickup",
+      "setup",
+      "verify-install"
+    ],
+    "skills": [
+      "bb",
+      "competitive-analysis",
+      "decision-memo",
+      "discovery-interview",
+      "experiment-designer",
+      "fresh-context-verification",
+      "market-validation",
+      "monetization-path-selection",
+      "niche-picker",
+      "risk-register",
+      "session-team",
+      "stop-slop",
+      "unit-economics",
+      "video-claim-grading",
+      "video-to-skill"
+    ],
+    "agents": [
+      "advisor-contrarian",
+      "advisor-executor",
+      "advisor-expansionist",
+      "advisor-first-principles",
+      "advisor-outsider",
+      "builder",
+      "orchestrator",
+      "planner",
+      "researcher",
+      "reviewer",
+      "runner",
+      "verifier"
+    ],
+    "rules": [
+      "agent-routing",
+      "ceo-gate",
+      "constraints",
+      "context-first",
+      "decision-log",
+      "escalation",
+      "grading",
+      "handoff-checklist",
+      "session-hygiene",
+      "skill-routing",
+      "token-discipline",
+      "verify-before-delivery"
+    ]
+  },
+  "payload_files": {
+    "note": "On a GLOBAL install, ~/.claude/CLAUDE.md is frequently the owner's own configuration and will match nothing here. That is the case this list exists to catch.",
+    "files": [
+      {
+        "path": "CLAUDE.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "f6a43d6a3cfcd2f5002965821df03693c42d90d2177210b505ad040b6ca59c10"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-2.1.4",
+            "sha256": "2cb57d0f06070eba89b73e55d3d47e9ad979eab67bd8005b3a84304e6325549c"
+          },
+          {
+            "releases": "2.2.0",
+            "sha256": "3ec203e3e46508898d9bb4f26b3e93cadfc5c17936ec204544f4dc0790457c00"
+          },
+          {
+            "releases": "3.0.0",
+            "sha256": "9b8e270be3fe5ed345a46cb03b22c79f913ae67f737e440f7117578e36c683d4"
+          },
+          {
+            "releases": "3.1.0",
+            "sha256": "cff07093cba1b79bfe19edb24aa10482620a735c55b679fc1bd5979e2137c2ce"
+          },
+          {
+            "releases": "3.2.0-3.2.1",
+            "sha256": "8bf10d30018a60261678ccd4c111776aa15ba04616d681df7a6bfed6bb2da743"
+          },
+          {
+            "releases": "3.3.1",
+            "sha256": "dc1515b072104a03ee04244aabfdc1b2d92795e2dd16af19daf894d79ee0610a"
+          },
+          {
+            "release": "3.4.0",
+            "sha256": "eb6ce1a614ef51c1d9328dd331f34fbf4060e3c003ce9cc22d9cac56aa3d3bbc"
+          },
+          {
+            "release": "lineage",
+            "sha256": "d1e5456b2d6ec2d38247a987e4d9b9c149f4a312d61d88518ed25e39751d07e8"
+          },
+          {
+            "release": "lineage",
+            "sha256": "5c865763743370883e9f2cfc5875220955fb6e4504c2049cbbe0d0ed46348340"
+          },
+          {
+            "release": "lineage",
+            "sha256": "bfa440adc739191bfcc9bb6ef03149a7a00ea3f5d82f182e595fe7dc5d457539"
+          },
+          {
+            "releases": "3.7.1-3.9.0",
+            "sha256": "22df04d00e5f4598a172b2bb37c3082d0ae73cf5bf030de6f0801073e83ab02f"
+          },
+          {
+            "releases": "3.10.0",
+            "sha256": "8ea2501b334958aad7938cf9681ae157af3267787e34f042cc4cdda9989419d1"
+          },
+          {
+            "releases": "3.11.0",
+            "sha256": "0b0a450d8c14948c823a398db389fc6f74ad632eef20f3b58b595b5433a0bc62"
+          },
+          {
+            "releases": "3.12.0",
+            "sha256": "42b34dd165a8aee1ad0fe9a249604bd4deae032a3065b9c859a3e5015d306bbd"
+          },
+          {
+            "releases": "3.14.0",
+            "sha256": "02fcac9101bc5aec0519f3af21c8aab151909168d479554dc5030da5b07fe507"
+          },
+          {
+            "releases": "3.15.0",
+            "sha256": "2056a1be9d067bb571591e7d850ef1377e3fec1ae0bb05cd0c8932df9efb6700"
+          },
+          {
+            "releases": "3.16.0",
+            "sha256": "4bca98218d20ddc2a7948866e1e82932d3d057351a556f4a6773732a830ae33a"
+          },
+          {
+            "releases": "3.16.1",
+            "sha256": "143580ba8cf26889724af42921b4e93bd21c06c1e34ddb62ffe87435b592942f"
+          },
+          {
+            "releases": "3.17.0",
+            "sha256": "e41c9369f04adac574fee0be9affd5f5801030637f47a6bb687bf3e4c0f79cc3"
+          },
+          {
+            "releases": "3.18.0",
+            "sha256": "fca70a7795d8b4038ef85ef5a5506fcf26b2c3905613af5220b29f60c4da6b98"
+          },
+          {
+            "releases": "3.19.0",
+            "sha256": "d30cca0eb26254b5ba9f3f5c0a5adb11be25ba35bc4961c44ca9b8c579bbf6f8"
+          },
+          {
+            "releases": "3.20.0",
+            "sha256": "18d677118516164f304a3b23c3c75210fbfc5cf3ad2c9c89ecf6176e10bd5883"
+          },
+          {
+            "releases": "3.21.0",
+            "sha256": "d624983cb072f150738f9b3eb4f757a424c75380e58dd3d4572ac959435fa032"
+          },
+          {
+            "releases": "3.22.0",
+            "sha256": "160a498e24aa4ffaf5adbd7eebd3e9775a9034337004a10aa1ce0a83447890a9"
+          },
+          {
+            "releases": "Backbrief Business OS 3.22.0",
+            "sha256": "a1b790171cead80d683f95acca1028effd1afae5b3833ce6861a7ca05f0f47cf"
+          }
+        ]
+      },
+      {
+        "path": "rules/agent-routing.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "8912b18bd5efbb8506de916d85a1f4de07106cb1f57fe7bc4bc381da7fa54ed7"
+        },
+        "known_prior": [
+          {
+            "release": "3.3.1",
+            "sha256": "393953ace7199874959a8b93a35ce3fd31bf106ae9baf9d8b36d1e5202a44475"
+          }
+        ]
+      },
+      {
+        "path": "rules/ceo-gate.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "48e11d49a865e59032c39320216adb3c037d240594af6d6669a72b4cef125017"
+        },
+        "known_prior": [
+          {
+            "releases": "3.3.1",
+            "sha256": "64480ce25c832b647f7e3bb547dfa43a8cc969d7c55669011377fa8f76bf1daa"
+          },
+          {
+            "releases": "Backbrief Business OS 3.7.1",
+            "sha256": "3b691b6375ad950f2337ccfc90ec050a95bc7956478908e5793fc45139861fdc"
+          }
+        ]
+      },
+      {
+        "path": "rules/constraints.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "b072b1efbfe8136a58e28f141834a8c6244bcf3aaf02542dfdf1d26242b714e6"
+        },
+        "known_prior": [
+          {
+            "releases": "3.7.1",
+            "sha256": "bc4b28774eecea2d9910b58a709c3dd9bcdfff68a165601535314fc3d11de64d"
+          }
+        ]
+      },
+      {
+        "path": "rules/context-first.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "695bb5d7cb5c8eee8f68d24503cc3bab07db2f986dd2e0bb5e47a53f8f651e85"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-2.1.4",
+            "sha256": "9e3530a1d838fbf3ef101ec07275cef776fa29de6b13a9439ee408040d085755"
+          },
+          {
+            "release": "3.3.1",
+            "sha256": "4b5189764cfbebc638bf9970aec61420a3167e05640eb74a39854e297a229cee"
+          }
+        ]
+      },
+      {
+        "path": "rules/decision-log.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "7f5d01eb1c69be237be7e919315bed4d487e3190aa9fedf54be3eb225535c86d"
+        },
+        "known_prior": [
+          {
+            "releases": "3.7.1",
+            "sha256": "5d295f7671271499a37b5da071f0dc49885b2c194067db26647f8f1c5f228beb"
+          },
+          {
+            "releases": "3.8.0",
+            "sha256": "3c6dd1d2429661140896f407824edb9d583cfb7710299ef52794d5c96ef64669"
+          },
+          {
+            "releases": "3.9.0",
+            "sha256": "a3639584eced26dca92c491cfe336df7ed8aee03ed23b76f6fc773f4a91cf7e8"
+          }
+        ]
+      },
+      {
+        "path": "rules/escalation.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "c749ac15741010826f916cd4a61edb7fe33038a8ae5c0d4cd03ae559f5d40fbc"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-3.2.2",
+            "sha256": "919c54fd515dd0b12e64c2548be46e68be41e3e75a8883913a388af64b24bbee"
+          },
+          {
+            "release": "3.3.1",
+            "sha256": "d129f47b3b79b2ab31f4a6ce67ee986a4294bccaaaa7ca40075d7b1f6164e177"
+          },
+          {
+            "releases": "3.7.1",
+            "sha256": "84063581243a845082e9830310e5631f95b157730d585a7ffbc3f50cc31568b5"
+          },
+          {
+            "releases": "Backbrief Business OS 3.8.0",
+            "sha256": "09f51c333932638575244ef72d4f9bd24f54ba3e04ee0f879d683290aa3422fd"
+          }
+        ]
+      },
+      {
+        "path": "rules/grading.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "119173849826b3fcb926b10c3e5f76de8e2037baf8d2cfabfc44363ac270195f"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-2.2.0",
+            "sha256": "59752712a1597c8c824bceb18be3f2452630db61788597ab65c34313b48fb9e0"
+          },
+          {
+            "release": "3.3.1",
+            "sha256": "5c8daa9467ce621b76175420d8c90107bc27dcce30b587e397e1bf059cc23ea5"
+          },
+          {
+            "releases": "Backbrief Business OS 3.7.1",
+            "sha256": "1372d558c28f354aadebadab0290e2713a651c8c785e252ef277537156dc23b6"
+          }
+        ]
+      },
+      {
+        "path": "rules/handoff-checklist.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "ec2ce7f8e770c89deb0907215184489a8631ca073bca723ae98b6c0770a232c8"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-3.2.0",
+            "sha256": "349f043a0f8c135f0d454239477f4b3777f5e91f808d3a7a86cdb3b52ae05671"
+          }
+        ]
+      },
+      {
+        "path": "rules/session-hygiene.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "6f0c0aa1caf3a664da56421719987717a78689736efcdfd0ca9f5031f39962ac"
+        },
+        "known_prior": [
+          {
+            "releases": "3.3.1",
+            "sha256": "d77cbeb2b18dd061b58c8c6815ed94709737a10aa2b56cc70b0ddc1d11c465e9"
+          },
+          {
+            "release": "3.4.0",
+            "sha256": "fc8b0e330838c5dc7b3012f6b86fd329735322e68ad34c36cdf2b0f18fd60da1"
+          }
+        ]
+      },
+      {
+        "path": "rules/skill-routing.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "66261ba28382d8f6ae57112c2cd7db276cf2ea1fcae124110e5fe7be51f18e25"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-2.2.0",
+            "sha256": "9d1d9997f207740566936ccad2dbab2ac0ebe8d61d8ca67847a60efd124d9fa1"
+          },
+          {
+            "releases": "3.0.0-3.1.0",
+            "sha256": "af8e096627306afbbdb6055f7b825b2fa17b34394ca2ab7d1f67840c385ad748"
+          },
+          {
+            "release": "3.3.1",
+            "sha256": "24319cc1f834963365dde800a8327ae7587bbab5fe45a610297439190df1ffba"
+          },
+          {
+            "release": "lineage",
+            "sha256": "016d579aaa0c63546c13428b7b1cb10b3cc5aa063778f39258397925294ba00c"
+          },
+          {
+            "release": "lineage",
+            "sha256": "836dde7657bc496a884bd9eaa72c7e6eba73a0a9d20878c152c6969fca9c16c9"
+          },
+          {
+            "releases": "3.7.1-3.9.0",
+            "sha256": "becfdc01d2b5c6f3ff860a9a3927dc93f0678e9c7024682933f40f1d2205f60f"
+          },
+          {
+            "releases": "3.10.0",
+            "sha256": "5d91cfc72b49e78dd4e66462b10e41c04e84c8a7e561c832450ac393ff9089de"
+          },
+          {
+            "releases": "3.11.0",
+            "sha256": "c54ce9c3be411a2b783fcd3bd74880fbc1c7ee0ab77efce95d9742cf3c59e5da"
+          },
+          {
+            "releases": "3.12.0",
+            "sha256": "982fd28e6ee9523558496220ad0d9e8005b9de06eeed02737746a99144f10ada"
+          },
+          {
+            "releases": "3.16.0",
+            "sha256": "8a81ecb5b2b9812590a775771835b7ebe5f09cc32331064d04d050695083f4ae"
+          },
+          {
+            "releases": "3.18.0",
+            "sha256": "a7b2ccff339c59f18b572169a6987b44376cce2a4399593ef09e80f01f5ed622"
+          },
+          {
+            "releases": "3.18.1",
+            "sha256": "e139497cda1a495678040a0a20b129902d6dd5008c662b6a4a1f429fa7980ef8"
+          },
+          {
+            "releases": "3.19.0",
+            "sha256": "1955cc3a5efd238bf27ef72575b8aabf2bef1aeeaef4a88e39791d9839dc2a6f"
+          },
+          {
+            "releases": "Backbrief Business OS 3.20.0",
+            "sha256": "c51f30e7a3ac71d2b19439bb0df36e16d62b9b7ed9ec1d36a9e5813a2fd9edcb"
+          }
+        ]
+      },
+      {
+        "path": "rules/token-discipline.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "9029ac0e6ad7617c8cc2de01a006d063a917bde882a1c007bd1dc3731679d818"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-2.2.0",
+            "sha256": "72e990ed837a54a8279a1882b8992bd76690f505d602ffe413b4ae3375940458"
+          },
+          {
+            "releases": "3.3.1",
+            "sha256": "c1eb1fd859be6ef58447abe63651e4c52294096946d8deb51b66df8ae53e3c5a"
+          },
+          {
+            "release": "3.4.0",
+            "sha256": "5a7d90cc0aa555c22c115416073d3fb4ab8a48a0ef80639803c1914d4e422418"
+          },
+          {
+            "releases": "3.7.1-3.9.0",
+            "sha256": "6c4878ce5a15eb2eead197a945c67d67ac71080751632523ac7620cac992feaa"
+          },
+          {
+            "releases": "Backbrief Business OS 3.10.0",
+            "sha256": "a93e0dc6e8d48f8814422bea2861fdee993b6fbb07350eb9c9699b05a572abac"
+          }
+        ]
+      },
+      {
+        "path": "rules/verify-before-delivery.md",
+        "current": {
+          "release": "0.1.0",
+          "sha256": "622f1099913f31bfdeb33967a8d900569cf72213ad105a8a8febb73916fec42d"
+        },
+        "known_prior": [
+          {
+            "releases": "2.1.2-3.2.2",
+            "sha256": "bd5e143a256c160d1fd633afe181082ddbeb74480349f9901886e90dc90f78af"
+          },
+          {
+            "release": "3.3.1",
+            "sha256": "95204f4b3f9f74af3e85a3d10caee17eca9ee06a4ceae1795679104c9a6677f1"
+          },
+          {
+            "releases": "3.7.1",
+            "sha256": "a56aa94b0f8277d760dc576c358751c770c3aac8b58175738e8ff663c04d1d02"
+          }
+        ]
+      }
+    ]
+  },
+  "built_ins": "Claude Code's own built-in commands are a third namespace, in neither ~/.claude/commands/ nor ~/.claude/skills/, so a folder comparison cannot see them. /resume is taken outright by the built-in: typing it opens the session picker and a command file of that name never runs. /plan is contested rather than dead - a command file of that name does run in the Claude Code desktop app - so which one wins depends on the client. This product ships /pickup and /business-plan to avoid both. Re-check after a Claude Code update.",
+  "shipped_names_notes": {
+    "why": "A personal-level skill or command with any of these names silently replaces the shipped one; nothing warns. Commands and skills are one namespace. Compare case-normalized.",
+    "normalize": "lower-case, then drop everything that is not a letter or digit. Deliberately looser than an exact match: over-reporting a near-miss costs a line in a report, under-reporting hides a command the owner is not running."
+  }
+}

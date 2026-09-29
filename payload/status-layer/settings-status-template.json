@@ -1,0 +1,52 @@
+{
+  "_readme": "See status-layer/README.md for what this layer does and how to remove it. This file shows the hook entries in both OS forms; the installer merges only the OS-correct one into the project's .claude/settings.json, under its top-level \"hooks\" key, alongside any hooks already there. The same script serves both events and dispatches on hook_event_name.",
+  "sh": {
+    "hooks": {
+      "UserPromptSubmit": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/backbrief-status.sh\""
+            }
+          ]
+        }
+      ],
+      "Stop": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/backbrief-status.sh\""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "windows": {
+    "_readme": "The installer writes the project's absolute path in place of <ABSOLUTE-PROJECT-PATH> at merge time. An absolute -File path is inert under both Git Bash and PowerShell as the hook shell, so this one command string works regardless of which shell the machine uses.",
+    "hooks": {
+      "UserPromptSubmit": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"<ABSOLUTE-PROJECT-PATH>\\.claude\\hooks\\backbrief-status.ps1\""
+            }
+          ]
+        }
+      ],
+      "Stop": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"<ABSOLUTE-PROJECT-PATH>\\.claude\\hooks\\backbrief-status.ps1\""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

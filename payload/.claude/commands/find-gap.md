@@ -36,7 +36,7 @@ This command needs nothing but that subject. No plan document, no prior run, no 
 
 5. CONFIDENCE: one line per gap, from exactly these three values, each with its basis stated: strong signal (the same complaint sourced in three or more independent venues, at least one post inside the last year, demand state SEEKERS FRUSTRATED); mixed signal (sourced, but thin on venues, dated, or the demand state is unclear); weak signal (one venue, or no seekers found). No percentages and no scores.
 
-6. REGULATED ACTIVITY: if serving a candidate plainly requires a licence, a registration, or a regulated disclosure (money, health, law, insurance, food, childcare, transport), add one line naming the regulated activity and labelling it an unverified local-law assumption. Do not state what the law requires. Nobody retrieved it.
+6. REGULATED ACTIVITY: if serving a candidate plainly requires a license, a registration, or a regulated disclosure (money, health, law, insurance, food, childcare, transport), add one line naming the regulated activity and labeling it an unverified local-law assumption. Do not state what the law requires. Nobody retrieved it.
 
 7. RENDER the block below, fixed width so it screenshots. Fill every bracket, keep the labels and the row order, repeat the gap block once per candidate, and reproduce the closing paragraph verbatim, every run, never shortened, never softened, never moved above the gaps, and never dropped because a run went well.
 

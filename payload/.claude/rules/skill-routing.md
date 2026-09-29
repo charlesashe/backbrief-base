@@ -1,0 +1,28 @@
+# Skill Routing (base and first-party skills)
+
+This product's skills live in `.claude/skills/`. Claude Code discovers them automatically: no install step. Agents load the matching skill before producing work in its domain.
+
+| Skill | Primary agent | When |
+|---|---|---|
+| stop-slop | reviewer, verifier | Every prose artifact (posts, emails, docs) gets a stop-slop pass before it is called done. This is a standing quality gate, not an on-request tool. |
+| competitive-analysis | researcher | Competitor mapping, offer comparison, positioning-gap research. |
+| session-team | orchestrator | Running several sessions or several teammates' sessions as one coordinated team. |
+| video-to-skill | any agent (researcher for fact-heavy sources) | Watching a video and distilling it into a reusable skill or a knowledgebase entry. The distilled artifact passes the verifier before joining the roster; the rights gate and claim tagging always apply. |
+| discovery-interview | orchestrator (any agent may run it; /intake and /business-plan may request it) | The owner interview: one question per turn with the inferred answer offered, upstream decisions before dependent ones, every answer written to `context/discovery/` before the next question, unknowns recorded as flags with an owner. The three first questions for a business topic are the pain, the person and the promise. Nothing outward; pricing is recorded only in the owner's words; jurisdiction-specific answers route to the researcher. Distilled from a public video in Backbrief's own words. |
+| fresh-context-verification | verifier | Loaded on every verifier run: entry/exit gates (BLOCKED and UNVERIFIED are verdicts), anti-sycophancy controls, the adversarial pass matched to the artifact type, the claim ledger, and the judge protocol for rubric scoring. Composes with the standing stop-slop gate on prose. |
+| bb | orchestrator | The plain-language front door: six core actions, each with its gate named, handing off to the shipped command unchanged. Loads when someone is lost among the commands or asks where to start. It presents and routes; it never re-implements a command or skips a gate one carries. |
+| market-validation | researcher | Planning support under ceo-gate, like /business-plan and /grade. Feeds /grade dimension 2 (market realism). Evidence, never a verdict; anything needing real customer contact stops for the owner (escalation). |
+| unit-economics | builder | Feeds /grade dimension 3 (financial viability). Use contribution margin, not revenue. Analysis, never financial advice; the questions for licensed professionals stay in the output. |
+| monetization-path-selection | orchestrator (planning support: /intake and /business-plan may request it); builder for the economics, loading unit-economics | Planning support under ceo-gate, like market-validation. Produces path options and a product definition, never a published price: pricing stays the owner's (escalation). Every entry in a DISTRO cell is an outward action and waits for the owner's GO. Distilled from a public video: the chart it carries is one operator's ordinal judgment, not data, and no figure in it is a forecast. |
+| decision-memo | orchestrator (any agent may request) | Requests a GO/NO-GO; never records one. The owner's decision lands in .claude/memory/decisions.md only when made. Distinct from /approve, the recorded GO for a graded plan. |
+| experiment-designer | orchestrator or builder; planning support for /business-plan and /grade | Without a GO the brief is planning support only, labeled, never executed. Any spend, any amount, stops for the owner before the test runs. |
+| risk-register | orchestrator, after /approve | ceo-gate applies; seeded from the final scorecard after /approve. Jurisdiction-specific rows route through the researcher before counting as mitigated. A crossed kill/pivot trigger is reported, never auto-executed. |
+| video-claim-grading | /grade-video command (orchestrator runs it) | Takes a link to a video that pitches a business or a money-making method, pulls the transcript, tags every claim verified, unverified or vendor claim, and grades the opportunity on the public six-dimension rubric. Analysis only; it never tells the owner to buy, join or spend. Loads video-to-skill for the transcript routes. |
+| niche-picker | /pick-niche command (orchestrator runs it) | For an owner with no idea yet: interviews for skills, hours, money and limits, scans for gaps with /find-gap, and returns three candidates graded on the public six-dimension rubric, each with a first move for this week. Analysis only; it recommends nothing to buy, join or spend on, and it never picks for the owner. |
+
+Rules of use:
+
+- Skills are procedures, agents are roles. The agent stays accountable for the output; the skill shapes how it is produced.
+- stop-slop's rules are intentionally strict. When the owner's real voice uses a pattern it bans, the owner's voice wins: note the exception in `context/` rather than fighting the gate every run.
+- Competitor facts age fast. competitive-analysis output must date-stamp claims and mark anything unverified.
+- stop-slop (Hardik Pandya), competitive-analysis and unit-economics (Matt Warren) are third-party MIT work, bundled with attribution (see `.claude/skills/THIRD-PARTY-LICENSES.md`). Keep each skill folder's LICENSE file when copying the kit into projects. session-team, video-to-skill, discovery-interview, fresh-context-verification, bb, market-validation, monetization-path-selection, decision-memo, experiment-designer, risk-register, video-claim-grading, and niche-picker are the exceptions: first-party Backbrief work, not part of the third-party attribution set, and each ships with no per-folder LICENSE file.
