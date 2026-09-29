@@ -127,5 +127,5 @@ The `kit/` path references inside the payload's own text are kept on purpose: th
   own core team and works alone; the payload assembled on 2026-09-28 carries it.
 - License: the predecessor shipped `LICENSE-BUSINESS-OS.md` at the download root. This product has
   no license file yet. A license is a legal commitment and is Charles's to name (escalation rule).
-- Price: owner's decision. No number appears here until Charles names it.
+- Price: $29, paid once, named by Charles on 2026-09-28 (decision log in `backbrief-hq`: "Go with the recommended prices: base $29, checkers $79"). Not yet published; the product page carries it at release (plan unit 7).
 - Third-party skills keep their per-folder LICENSE file when lifted (THIRD-PARTY-LICENSES.md in the payload).
