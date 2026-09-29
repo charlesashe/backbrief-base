@@ -59,5 +59,5 @@ Then a fresh-context verifier pass on the built zip's contents (item 7 again, no
 2. `git checkout <that commit>` in a clean clone or worktree (not this working tree if it holds uncommitted work).
 3. `python tools/build_zip.py`, then `python tools/install_check.py dist/backbrief-<VERSION>.zip`.
 4. Compare the content digest to the recorded one; it must match. (The zip sha256 will not match a rebuild, because of mtimes. It matches only if you still hold the exact original file, in which case prefer re-uploading that file.)
-5. OWNER: re-upload the rebuilt zip over the bad one, verify by downloading it (step 6.1; compare the content digest it prints), then record the rollback in `CHANGELOG.md` and the decision log.
+5. OWNER: re-upload the rebuilt zip over the bad one, verify by downloading it (step 6.1; compare the content digest it prints), then record the rollback in `CHANGELOG.md` with the rebuilt zip's sha256 and content digest (so step 6.1 compares against the file now live, not the old one) and in the decision log.
 6. If a tag pointed at the bad release, retagging or deleting it is the owner's call; do not force-move a published tag.

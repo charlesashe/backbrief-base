@@ -302,6 +302,8 @@ def build(out_dir: Path, version: str, dry_run: bool) -> int:
     if failures:
         for reason in failures:
             print(f"FAIL post-build: {reason}")
+        zip_path.unlink(missing_ok=True)
+        print(f"removed {zip_path.name}: a zip that failed its post-build check must not sit in the output folder")
         return 1
 
     print(f"\nwrote {zip_path}")
@@ -338,8 +340,9 @@ def main() -> int:
     dry_run = bool(skipped)
     if dry_run:
         inside_dist = out_dir == DIST.resolve() or DIST.resolve() in out_dir.parents
-        if args.out is None or inside_dist:
-            print("REFUSED: --skip-gates is a dry-run aid and will not write into dist/. Pass --out <a folder outside dist/>.")
+        inside_repo = out_dir == ROOT.resolve() or ROOT.resolve() in out_dir.parents
+        if args.out is None or inside_dist or inside_repo:
+            print("REFUSED: --skip-gates is a dry-run aid and will not write into dist/ or anywhere inside the repo. Pass --out <a folder outside the repo>.")
             return 2
         print("=" * 72)
         print(f"  DRY RUN: gates skipped: {', '.join(sorted(skipped))}")
