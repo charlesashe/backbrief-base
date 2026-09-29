@@ -78,7 +78,7 @@ Robocopy prints a summary table. That is normal.
 
 ## What's in the box
 
-`kit/.claude/` is the team: agents, commands, rules and skills. Its `CLAUDE.md` holds the roster. `kit/scaffold/` holds the folders and templates the team works in. Opt-in layers sit beside them: `kit/enforcement/` adds permission rules that stop outward shell commands, `kit/memory-layer/` recalls your latest handoff at session start, and `kit/status-layer/` records what was last launched for `/bb-status`. Nothing installs unless you say yes. `kit/INTEGRATION.md` merges Backbrief into an existing setup. `LICENSE.md` holds the terms.
+`kit/.claude/` is the team: agents, commands, rules and skills. Its `CLAUDE.md` holds the roster. `kit/scaffold/` holds the folders and templates the team works in. Opt-in layers sit beside them: `kit/enforcement/` adds permission rules that stop outward shell commands, `kit/memory-layer/` recalls your latest handoff at session start, and `kit/status-layer/` writes a small status file that `/bb-status` reads back. The installer asks about each one. On a fresh install, enforcement is recommended and goes on unless you say no; the other two stay off unless you say yes. `kit/INTEGRATION.md` merges Backbrief into an existing setup. `LICENSE.md` holds the terms.
 
 ## First run
 
@@ -108,8 +108,8 @@ The CEO loop, in order:
 
 ## Global vs per project
 
-Install globally to have Backbrief in every project. Install per project to keep it in one project or pin a version there. Either way, each project needs its own scaffold.
+Install globally to have Backbrief in every project. Install per project to keep it in one project, or to keep that project on one version while others move. Either way, each project needs its own scaffold.
 
 ## License, support, updates
 
-`LICENSE.md` holds the terms. For support, reply to your delivery email. Updates are free through your download link.
+`LICENSE.md` holds the terms. For support, reply to your delivery email. Updates are free through your download link for as long as the product is offered.

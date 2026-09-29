@@ -10,7 +10,7 @@ Look in this folder's parent for other Backbrief downloads (`VERSION` at the top
 
 ## Refuse three things
 
-- **An older version over a newer one.** Compare this folder's `VERSION` with the target's `.claude/VERSION` (numeric part; it reads like "Backbrief 0.1.0"). If this download is older, stop, name both versions, and install nothing unless the owner asks for a rollback in so many words.
+- **An older version over a newer one.** This applies only when the target's `.claude/VERSION` names this same product ("Backbrief <number>"). Compare the numbers; if this download is older, stop, name both versions, and install nothing unless the owner asks for a rollback in so many words. A stamp naming a different product (Backbrief Business OS, the Backbrief Kit, or an older name) is not an older version of this one: it is the upgrade case in "Detect the existing setup", whatever its number.
 - **Anything outward.** No network calls, no accounts, nothing sent anywhere. Every step is local copying and editing.
 - **Installing into this folder.** The project belongs to the owner.
 
@@ -25,7 +25,7 @@ Then run "Detect the existing setup". Then ask three layer questions, each namin
 4. **Memory layer** (`kit/memory-layer/README.md`). "Want each new session to load your latest handoff note and recent decisions? It costs a few hundred tokens at session start."
 5. **Status layer** (`kit/status-layer/README.md`). "Want a hook to record which Backbrief command you launched last, so `/bb-status` can report it?"
 
-An unclear answer is no. Then state in three lines what you will do, and do it.
+An unclear answer is no, with one exception: on a fresh install, no preference on question 3 means yes, as the enforcement README says. Then state in three lines what you will do, and do it.
 
 ## Detect the existing setup
 
