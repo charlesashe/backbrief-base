@@ -7,7 +7,7 @@
       "path": "examples/worked-example-business.md",
       "current": {
         "release": "0.1.0",
-        "sha256": "e0ef884305b104785154616ef0f32eadcd01e567c5a0be92550bba015c7f0f44"
+        "sha256": "339f1ba73fb3bb61027ed94368f2a5182ff4542b3b7945aabcb548d2c85a8a90"
       },
       "known_prior": [
         {
@@ -254,10 +254,6 @@
           {
             "releases": "Backbrief Business OS 3.22.0",
             "sha256": "a1b790171cead80d683f95acca1028effd1afae5b3833ce6861a7ca05f0f47cf"
-          },
-          {
-            "releases": "0.1.0",
-            "sha256": "f6a43d6a3cfcd2f5002965821df03693c42d90d2177210b505ad040b6ca59c10"
           }
         ]
       },

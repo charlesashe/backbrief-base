@@ -1,16 +1,15 @@
 # Worked Examples: two real runs, including the parts where the system said no
 
-Recorded on Backbrief Business OS 3.2.1, the predecessor product, which routed the plan's numbers to a cfo agent. In Backbrief that recompute is the builder's, with the unit-economics skill; everything else in the recording runs here as shown.
+**Honesty line, Part 1 only:** Part 1 was recorded on Backbrief Business OS 3.2.1, the predecessor product, which routed the plan's numbers to a cfo agent. In Backbrief that recompute is the builder's, with the unit-economics skill; everything else in Part 1's recording runs here as shown. Part 2 was recorded on Backbrief itself and carries no such caveat.
 
-Both runs below were recorded on **Backbrief Business OS 3.2.1** on 2026-08-17, with real five-advisor grading panels dispatched fresh for every pass. Nothing here is a mockup, and neither run ends in an A.
+Part 1 was recorded on **Backbrief Business OS 3.2.1** on 2026-08-17 and Part 2 on **Backbrief 0.1.0** on 2026-09-29, each with real five-advisor grading panels dispatched fresh for every pass. Nothing here is a mockup, and neither run ends in an A.
 
 - **Part 1: NestPet** is a real business: the author's own $59 pet memorial ceramic portrait brand, re-run through the full pipeline from the owner's original 2026-07-08 brain dump. It graded **C (5.9)** and the owner's recorded decision was to pivot.
-- **Part 2: TrailNotes** is the product's disclosed invented example business (a specimen, the same brand used in the build-team example). Its brief was run through the full graded loop to the three-pass cap: **C (6.9) → B (7.3) → B (7.7), stop**. It never passed. That is the example on purpose: you are watching what the revise loop does when defects actually close, and what the cap does when they don't close enough.
+- **Part 2: TrailNotes** is the product's disclosed invented example business (a specimen). Its brief was run through the full graded loop to the three-pass cap: **B (7.1) → B (7.4) → B (7.6), stop**. It never passed. That is the example on purpose: you are watching what two revisions do to a plan that is already decent, and what the cap does when the remaining defects are ones only the owner can close.
 
 A system that only shows you A- runs is a system you cannot trust, because you have no way to know what it does when the answer is bad. These two runs show what it does.
 
 ---
-
 ## Part 1: NestPet, a real C, and a recorded pivot
 
 ### The arc in five steps
@@ -78,43 +77,59 @@ End of scorecard.
 
 ## Part 2: TrailNotes, three loops to the cap, and an honest plateau
 
-**Disclosure, stated plainly:** TrailNotes (a $6/month weekly email of local hiking trail conditions for one metro) is an invented business. It is the same specimen brand used in this bundle's build-team example, here given a matured premise (nine months of operating history: 240 paying subscribers, $1,440 MRR, 39 consecutive weekly issues) so the graded loop had something real to bite on. The figures are the example's premise; **the running of the pipeline and every grading panel was real.** Every score below came from a fresh advisor dispatch citing the plan's text, and the panel was never told to pass it.
+**Disclosure, stated plainly:** TrailNotes (a $6/month weekly email of local hiking trail conditions for one metro) is an invented business. It has a matured premise (nine months of operating history: 240 paying subscribers, $1,440 MRR, 39 consecutive weekly issues) so the graded loop had something real to bite on. The figures are the example's premise; **the pipeline and every grading panel that ran on it were real.** Every score below came from a fresh advisor dispatch citing the plan's text, and the panel was never told to pass it.
 
-Why show this at all? Because a single C run invites a fair objection: "maybe this tool just says no to everything." The specimen answers it. Watch what the panel does when defects actually close, and what it still refuses to do.
+Why show this at all? A buyer can fairly suspect two things: that the tool says no to everything, or that it can be talked upward by iterating. The specimen answers both. It scored a B on the first pass, and it stayed a B after two revisions and a cap.
 
 ### The arc
 
-**Loop 1, C (6.9).** The plan was built by the pipeline's own agents, and the first defect was found by the product itself: the plan.md routing step dispatched the **cfo agent**, which recomputed the specimen's stated cost stack and found it did not reconcile: "That sums to $391.76/month, not the brief's stated 'about $340/month, all-in'... roughly a $52 (15%) gap that cannot be closed from the numbers given." The plan carried the gap as an open item instead of smoothing it over, and the panel promptly scored Financial viability 5.8 for exactly that reason. The system stress-tested its own example's numbers and docked its own example's grade.
+**Intake.** The owner's brain dump went through `/intake` with the owner unavailable. The brief's line on who pays:
 
-**Revision 1 (the two lowest: financial, market).** Financial was fixed by rule, not optimism: "The plan now budgets on the worse number": the recomputed $391.76 became the single baseline, one margin stated once (72.8%), break-even computed (28 subscribers against 240 actual), and the unresolved fee mechanism quarantined in a dated reconciliation unit. Market got a retrieved external referent (OpenSnow, which sells expert local conditions forecasting at $49.99-$99.99/year, verified against opensnow.com, 2026-08-17) plus a penetration sensitivity that survives the market estimate being wrong by half. The unverified TAM figure stayed tagged unverified; only its downside was bounded.
+> Committed local hikers who go out most weekends and plan around conditions pay $6/month, monthly only, no annual plan yet, for the Thursday-night conditions email.
 
-**Loop 2, B (7.3).** Financial moved 5.8 → 7.8 and market 6.2 → 7.4, because the cited defects closed. Nothing else moved up: the never-revised dimensions sat still, and the two new lowest were Execution feasibility (6.6) and Differentiation (6.6). The contrarian held at 6.0 across its lenses, calling the financial fix "arithmetic hygiene, not new margin."
+Intake wanted five answers: which metro, how the cost figure was arrived at, the owner's spare hours and money, which contributors would step in, and what covers liability and sales tax. The dump held none of them, so each went under Open unknowns and nothing was invented.
 
-**Revision 2 (execution, differentiation).** Execution: the owner's load was itemized against the measured 9-11 hour/week baseline ("genuinely new owner work... totals roughly 8-10 hours across 13 weeks"), the undated contributor-selection unit got a day-14 deadline, the missed-owner-week anecdote became a written on-call protocol, and a new unit made contributor rotation a standing monthly pattern with an explicit failure branch ("this unit is explicitly skipped and the miss is recorded, not papered over"). Differentiation: the brief's own "argument, not evidence" label was scoped to the cloning question only (because 240 buyers with free alternatives available re-run the comparison every month and mostly stay: 4.1% monthly churn, 140 subscribed 6+ months) and the funded-competitor question got a named answer with a named limit: "the plan's only real answer is local depth built faster."
+**Plan.** `/business-plan` routed the unit-economics section to the builder, loading the unit-economics skill, and one researcher pass retrieved outside prices from vendor pages. The builder recomputed the specimen's cost stack from the brief's own rates and did not agree with it:
 
-**Loop 3, B (7.7). The cap. Stop.**
+> The brief's cost lines sum to $391.76/month at current scale (Substack 10% of $1,440 = $144.00; Stripe 2.9% of $1,440 plus $0.30 on 240 charges = $113.76; tools $54; gas $80), not the brief's stated "about $340/month, all-in": a $51.76 gap, 15.2% of the stated figure, that cannot be closed from the brief's numbers.
+
+The plan then wrote "The plan does not pick between the two totals" and carried the gap as an open item. The recompute also found that the brief's "roughly 76%" is a total-cost margin, not a contribution margin, and that at 330 subscribers costs pass the owner's $340 ceiling.
+
+**Loop 1, B (7.1).** Five advisors scored six dimensions. The two lowest were Differentiation (5.9) and Market realism (6.4), both for claims nobody had checked: "The claim that no one else does this is the owner's own, unchecked against any outside source, and the clone risk is unmitigated (risk 7)." Financial viability scored 7.8 with the cost gap still open.
+
+**Revision 1 (the two lowest: differentiation, market).** The plan now kept its evidence in three tiers, showed that the 90-day goal does not depend on the unverified buyer pool, gave the reason to pay in three parts with a stated limit on each, and added a clone alarm with a seven-day owner decision. Nothing else in the plan was revised.
+
+**Loop 2, B (7.4).** Market realism moved 6.4 to 6.8 and Differentiation 5.9 to 6.4. The scorecard says what earned it: "The gain comes from stating the limits, not from new proof." Three dimensions nobody revised also rose in the same pass, and the chairman traced each one: Risk coverage to the clone alarm the revision had added, Financial viability partly to new arithmetic in the market text, and Execution feasibility to nothing new, "reported as advisor drift, not closure."
+
+**Revision 2 (the same two).** The pool gained a measured low bound from a count the owner runs, a freshness test on sampled trailheads, an evidence pack that checks the brief's figures against Stripe and Substack exports, and a gate that holds the annual-plan announcement until the owner has read the results.
+
+**Loop 3, B (7.6). The cap. Stop.** Both revised dimensions rose again (Market realism 7.1, Differentiation 6.8), and the plan sat 0.9 short of the 8.5 pass line. The record carries two disclosures: an advisor's self-reported average did not match its own scores and the computed figure was used, and a dispatch that had departed from the grading rule was discarded and rerun once. The discarded run also averaged 7.6.
 
 ### The trajectory
 
 | Dimension | Loop 1 | Loop 2 | Loop 3 |
 |---|---|---|---|
-| Clarity of offer | 8.4 | 8.4 | 8.4 |
-| Market realism | 6.2 | 7.4 | 7.4 |
-| Financial viability | 5.8 | 7.8 | 7.8 |
-| Execution feasibility | 6.8 | 6.6 | 7.6 |
-| Risk coverage | 7.4 | 7.2 | 7.4 |
-| Differentiation | 6.6 | 6.6 | 7.6 |
-| **Average** | **6.9 (C)** | **7.3 (B)** | **7.7 (B)** |
+| Clarity of offer | 8.8 | 8.8 | 8.8 |
+| Market realism | 6.4 | 6.8 | 7.1 |
+| Financial viability | 7.8 | 8.1 | 8.2 |
+| Execution feasibility | 7.1 | 7.4 | 7.4 |
+| Risk coverage | 6.5 | 7.0 | 7.3 |
+| Differentiation | 5.9 | 6.4 | 6.8 |
+| **Average** | **7.1 (B)** | **7.4 (B)** | **7.6 (B)** |
 
 Three things to notice, because they are the integrity of the product:
 
-- **Scores moved when, and only when, a revision closed the cited defect.** Clarity was never revised and never moved. Financial jumped two full points in the loop where the plan adopted the worse number and computed break-even, then sat still.
-- **The panel never drifted toward yes.** The contrarian's per-pass average was 5.7, then 6.0, then 6.5: it conceded exactly what the revisions earned ("Real fixes... But D1 stays") and nothing more. At the cap it was still writing objections: the rotation starts day 60, late in the window; the answer to a funded competitor is "a head start with a tripwire," not a moat.
-- **The cap held.** At loop 3 the average was 7.7: a genuinely improved plan, still 0.8 short of the 8.5 pass line. The system did not run a fourth pass, did not round up, and did not soften the bar because the plan was "close." It stopped, per the grading rule, and presented the owner's three options: proceed at this grade, pivot, or kill. A plan that plateaus is a result, not a failure of the system.
+- **The remaining defects belong to the owner.** The plan cannot name the metro, run the freshness test or export the Stripe records. Its checks are planned, not run, and the panel scored them that way: the pool stayed "unverified" and the moat stayed the owner's own claim.
+- **Untouched dimensions moved, and the record says why.** Clarity, never revised, held at 8.8. Risk coverage, never revised, gained 0.8: the record traces 0.5 to the clone alarm the Differentiation revision added and the rest to drift. A grading loop that claimed its untouched dimensions sit still would be wrong; this one names which rises a revision earned and which it did not.
+- **The cap held.** At loop 3 the average was 7.6, 0.9 short of the pass line. The system did not run a fourth pass, did not round up, and did not soften the bar because the plan was closer. It presented the owner's three options and unlocked nothing.
 
 ### The final scorecard's own closing words
 
-> Below A- at the cap of three grading passes: the loop STOPS here, per the grading rule. No further revision cycles. The owner's options, presented without a recommendation to auto-proceed: **proceed at this grade** (B, 7.7), recorded as the owner's explicit "proceed at this grade" decision; **pivot** the plan or the business; **kill** it.
+> Below A- at the cap of three grading passes: the loop STOPS here, per the grading rule. There is no fourth pass and nothing is unlocked. The owner's options, presented without a recommendation to auto-proceed:
+>
+> 1. **Proceed at this grade** (B, 7.6). This is the owner's explicit "proceed at this grade" decision, recorded with the grade through /approve.
+> 2. **Pivot** the plan or the business, then start a new graded loop.
+> 3. **Kill** it.
 >
 > A plan that plateaus is a result, not a failure of the system.
 
@@ -122,9 +137,9 @@ Three things to notice, because they are the integrity of the product:
 
 ## What the two runs show together
 
-A real business graded C, and its owner pivoted on the record. A designed-to-be-decent specimen improved for three real passes and still could not flatter its way past 8.5. Between them, the two runs answer the two questions every buyer should ask a grading product:
+A real business graded C, and its owner pivoted on the record. A designed-to-be-decent specimen improved for two revisions, gained half a point, and could not reach 8.5. Between them, the two runs answer the two questions every buyer should ask a grading product:
 
 1. **"What does it do when the answer is bad?"** It says C, cites the plan's own sentences, and stops everything downstream until the owner decides. (NestPet.)
-2. **"Can the grade be gamed by iterating?"** Scores move only where defects close, the adversarial lens never warms on its own, and the loop is capped at three passes by rule. (TrailNotes.)
+2. **"Can the grade be gamed by iterating?"** The average moved from 7.1 to 7.6 over two revisions and stopped at the cap by rule. Where an untouched dimension rose, the scorecard says whether a revision earned it. (TrailNotes.)
 
 The grade is a stress-test, not a promise. The product is legibility, not flattery: at the end of both runs, the owner knows precisely which weaknesses are load-bearing, in the plan's own words, with the decision (and only the decision) left in their hands.
