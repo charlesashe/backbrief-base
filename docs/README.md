@@ -112,4 +112,4 @@ Install globally to have Backbrief in every project. Install per project to keep
 
 ## License, support, updates
 
-`LICENSE.md` holds the terms. For support, reply to your delivery email. Updates are free through your download link for as long as the product is offered.
+`LICENSE.md` holds the terms. For support, write to contact@ashecorp.com from the address you bought with. Updates are free through your download link for as long as the product is offered.
