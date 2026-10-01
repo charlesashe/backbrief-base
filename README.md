@@ -7,7 +7,7 @@ this product. The payload that ships to buyers lives under `payload/.claude/`; e
 build material. See `PRODUCT.md` for scope and the component manifest, and
 `C:\business\vault\backbrief-hq` for the business that runs it.
 
-Status: payload assembled, unreleased. Version 0.1.0 is reserved for the first release.
+Status: released. Version 0.1.0 shipped 2026-09-29 and is on sale at backbrief.ai/backbrief.
 
 ## What payload/ holds
 

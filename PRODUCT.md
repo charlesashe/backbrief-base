@@ -1,7 +1,7 @@
 # Backbrief: product definition
 
 Created 2026-09-27 from Charles Ashe's restructure of Backbrief into a product line. Status: payload
-assembled 2026-09-28 (plan unit 3), unreleased. Version 0.1.0 is reserved for the first release.
+assembled 2026-09-28 (plan unit 3); version 0.1.0 released 2026-09-29 and on sale at backbrief.ai/backbrief.
 
 **One line:** The base product: grade the plan before you build it.
 
@@ -127,5 +127,5 @@ The `kit/` path references inside the payload's own text are kept on purpose: th
   own core team and works alone; the payload assembled on 2026-09-28 carries it.
 - License: the predecessor shipped `LICENSE-BUSINESS-OS.md` at the download root. This product has
   no license file yet. A license is a legal commitment and is Charles's to name (escalation rule).
-- Price: $29, paid once, named by Charles on 2026-09-28 (decision log in `backbrief-hq`: "Go with the recommended prices: base $29, checkers $79"). Not yet published; the product page carries it at release (plan unit 7).
+- Price: $29, paid once, named by Charles on 2026-09-28 (decision log in `backbrief-hq`) and published on the product page at the 0.1.0 release on 2026-09-29.
 - Third-party skills keep their per-folder LICENSE file when lifted (THIRD-PARTY-LICENSES.md in the payload).
